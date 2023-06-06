@@ -1,0 +1,52 @@
+.signup_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #40b800, #051812);
+    opacity: 85%;
+  }
+  
+  .main_signup {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #25b800;
+    font-size: 28px;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
+  
+  button[type="submit"] {
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0bcc35;
+  }

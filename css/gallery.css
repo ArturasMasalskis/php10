@@ -1,0 +1,159 @@
+/* --------------------------gameplay gallery-------------------------------------
+this css code is only for the gallery boxes for for section code go to body.css   */
+
+.slider {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;  
+    border-radius: 15px;
+  }
+  
+  .slide {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    position: absolute;
+    transition: all 0.5s;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+    opacity: 50%;
+  }
+  
+  .btn:active {
+    transform: scale(1.1);
+  }
+  
+  .btn-prev {
+    top: 45%;
+    left: 2%;
+  }
+  
+  .btn-next {
+    top: 45%;
+    right: 2%;
+  }
+
+  /* --------------------------wallpaper gallery */
+
+  .slider2 {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;  
+    border-radius: 15px;
+  }
+  
+  .slide2 {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    position: absolute;
+    transition: all 0.5s;
+  }
+  
+  .slide2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .btn2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+    opacity: 50%;
+  }
+  
+  .btn2:active {
+    transform: scale(1.1);
+  }
+  
+  .btn-prev2 {
+    top: 45%;
+    left: 2%;
+  }
+  
+  .btn-next2 {
+    top: 45%;
+    right: 2%;
+  }
+
+   /* --------------------------fan art */
+
+   .slider3 {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;  
+    border-radius: 15px;
+  }
+  
+  .slide3 {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    position: absolute;
+    transition: all 0.5s;
+  }
+  
+  .slide3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .btn3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+    opacity: 50%;
+  }
+  
+  .btn3:active {
+    transform: scale(1.1);
+  }
+  
+  .btn-prev3 {
+    top: 45%;
+    left: 2%;
+  }
+  
+  .btn-next3 {
+    top: 45%;
+    right: 2%;
+  }

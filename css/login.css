@@ -1,0 +1,73 @@
+.main_login {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #25b800;
+    font-size: 28px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    width: 100%;
+  }
+  
+  .login-form button[type="submit"] {
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .login-form button[type="submit"]:hover {
+    background-color: #0bcc35;
+  }
+  
+  .signup-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #000000;
+  }
+  
+  .signup-button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .signup-button a:hover {
+    background-color: #25b800;
+  }

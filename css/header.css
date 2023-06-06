@@ -1,0 +1,145 @@
+
+.header {
+    background-color:#393939;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        opacity: 80%;
+}
+
+.navbar_top{
+    padding-right: 60px;
+    padding-top: 20px;
+    
+}
+
+.nav_list {
+    display: flex;  
+}
+
+.nav_list li {
+    margin-right: 30px;   
+}
+
+.nav_list li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+
+.logo_top img {
+    width: 130px; 
+    height: auto;
+    padding-left: 60px; 
+}
+
+.Login {
+    border-radius: 15px; 
+    background-color:#000000;
+    border: none;
+    width: 70px;
+    height: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    margin-top: -4px;
+  
+}
+
+.Login a {
+    color:#3AB54A;
+    text-decoration: none;
+    
+}
+
+.mobile-nav {
+    display:none;
+}
+
+.nav_list li:hover, .nav_list li:active {
+    background-color:#3AB54A;
+    border-radius:5px;
+    color: #fff;
+}
+
+.Login:hover, .Login:active{
+    background-color: #3AB54A;
+}
+
+.Login:hover a, .Login:active a{
+    color: #fff;
+}
+
+@media all and (max-width:900px) {
+    .navbar_top {
+        display:none;
+    }
+    
+    .mobile-nav {
+        display:block;
+        position:relative;
+        width:100%;
+    }
+
+    .mobile-nav ul {
+        flex-direction:column;
+        position:absolute;
+        background-color:#080707;
+        display:none;
+        right: 0;
+        padding-left: 10px;
+        padding-right: 15px;
+        padding-top: 45px;
+        border-radius:50px 0px 5px 20px ;
+        padding-bottom: 10px;
+    }
+    .mobile-nav li a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Titillium Web', sans-serif;
+        font-family: 'Tsukimi Rounded', sans-serif;
+    }
+
+    .mobile-nav a.icon {
+        display:block;
+        position:absolute;
+        right:20px;
+        top:5px;
+        color:#fff;
+        font-size: 40px;
+        opacity: 85%
+    }
+
+    .Login{
+        background-color: #fff;
+        margin-top: 5px;
+        opacity: 85%;
+        
+    }
+
+    .Login a {
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .mobile-nav li:hover, .mobile-nav li:active {
+        background-color:#3AB54A;
+        border-radius:3px;
+        color: #fff;
+    }
+    
+    .icon:hover,.icon:active {
+        background-color:#3AB54A;
+        border-radius:3px;
+        color: #fff;
+    }
+    
+    .Login:hover, .Login:active{
+        background-color: #3AB54A;
+    }
+
+}

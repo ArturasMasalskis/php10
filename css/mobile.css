@@ -1,0 +1,242 @@
+
+@media all and (max-width: 806px) {
+
+    .logo_bottom img {
+        width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+
+}
+
+
+@media all and (max-width: 640px) {
+
+
+    /* --------------about section------------------------ */
+
+    
+
+      .text_about h3 {
+        font-size: 40px;
+        padding-left: 10px;
+        padding-top: 10px;
+    
+      }
+    
+      .text_about p {
+        font-size: 20px;
+        margin: 10px 20px 30px 20px;
+      }
+
+      .about{
+        align-items: center;
+      }
+
+
+    /* -----------------crossplay members sign up---------------------- */
+        
+    
+        .text_crossplay p{
+        text-align:center;
+        }
+    
+        .singup_crossplay_members_section,
+        .crossplay_container {
+          position: static;
+        }
+        .crossplay_image{
+            display: none;
+        }
+      
+        .members_box {
+          position: static;
+          width: auto;
+          height: auto;
+          margin: 0;
+          border-radius: 0;
+        }
+      
+        .members h4 {
+          font-size: 40px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+      
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+      
+        .text_crossplay p {
+          margin-left: 0;
+        }
+
+    /* -------------------whats next section     */
+
+    .next_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .text_signed_up,
+      .text_whats_next,
+      .box_text_invite,
+      .text_have_fun {
+        float: none;
+        text-align: center;
+        padding: 0 20px;
+      }
+
+
+    /* --------------------gallery------------------------ */
+
+
+    .gallery_container,
+    .text_align_container,
+    .photo_container {
+        grid-template-columns: 1fr;
+    }
+
+    .photo_container>div {
+        text-align: center;
+    }
+
+    .text_photo,
+    .text_gallery,
+    .text_wallpapers,
+    .text_fan_art,
+    .text_gameplay {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .photo_container img {
+        margin: 0 auto;
+    }
+
+    /* ---------------footer------------------- */
+
+    .section_homepage_news_icon {
+        grid-template-columns: 1fr;
+    }
+
+    .news_box {
+        margin-top: 15px;
+        border-radius: 20px;
+    }
+
+    .news_box h4 {
+        padding: 15px 20px;
+        font-size: 24px;
+    }
+
+    .news_box p {
+        padding: 10px 20px 30px 20px;
+        font-size: 18px;
+    }
+
+    .nav_list_bottom li a {
+        padding-left: 40px;
+        font-size: 18px;
+    }
+
+    .logo_bottom img {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+
+    .logo_icon_container {
+        grid-column: 1;
+        margin-bottom: 10px;
+    }
+
+    .bottom_image_icons {
+        flex-direction: column;
+
+    }
+
+    .bottom_image_icons h3 {
+        padding-left: 0;
+        text-align: center;
+        margin-top: 15px;
+        padding-right: 60px;
+    }
+
+    .bottom_image_icons ul {
+        padding-left: 180px;
+    }
+
+    .bottom_image_icons li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .bottom_image_icons li a {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .logo_bottom img {
+        width: 300px;
+        height: auto;
+        padding: 40px 40px;
+
+    }
+
+
+}
+
+@media all and (max-width:414px) {
+
+    .text_about h3 {
+        font-size: 30px;
+        padding-left: 5px;
+        padding-top: 5px;
+      }
+    
+      .text_about p {
+        font-size: 18px;
+        margin: 5px 10px 20px 10px;
+      }
+    
+      .about {
+        align-items: flex-start;
+      }
+
+      .videoBox{
+        display: none;
+    }
+
+    .singup_tab h5{
+        font-size: 40px;
+    }
+
+    .singup_button{
+        
+        width: 100px;
+        height: 40px;
+        
+    }
+    
+    .singup_button a{
+        font-size: 20px;
+    }
+
+    .logo_bottom img{
+        display: none;
+    }
+}
+    @media all and (max-width:285px){
+        .singup_tab h5{
+            display: none;
+        }
+    }
+    
+    .text_photo{
+        display:none ;
+    }
+

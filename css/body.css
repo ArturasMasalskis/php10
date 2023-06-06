@@ -1,0 +1,340 @@
+/* main */
+
+.body{
+    max-width: 100%;
+    
+    
+}
+/* --------------Main picture and sectio about-------------------------- */
+
+.main_img_box{
+    background-color:#666666 ;
+    margin: 0;
+    padding: 0;
+}
+
+.main_img{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.about{
+    background-color:#666666 ;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.about_green{
+    color:#3AB54A ;
+    font-size: 35px;
+    padding: 20px 20px;
+    margin-right: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    opacity: 85%;
+}
+
+.about_box_video{
+    color: #fff;
+    background-color:#000;
+    max-height: 220px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+
+.about_box_video h1 {
+    font-size: 20px;
+    padding: 20px 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    
+    
+}
+
+.about_box_video em{
+    font-size: 10px;
+    padding: 20px 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    
+}
+
+.videoBox{
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.text_about{
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+
+.text_about h3{
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    opacity: 85%;  
+}
+
+.text_about p{
+    font-size: 30px;
+    margin: 20px 40px 50px 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    opacity: 85%;
+}
+
+/* --------------------sing up crossplay and members section-------------------- */
+
+.singup_crossplay_members_section{
+    position: relative;
+}
+
+.members_box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 90%;
+    background-color: #000; 
+    z-index: 2;
+    opacity: 70%;
+    margin-top: 40px;
+    border-radius: 60px;
+    margin-right: 30px;
+  }
+
+  .members{
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+  }
+
+  .members h4 {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 80px;
+    padding-top: 20px;
+    
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .user-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .user-icon {
+    color: white;
+    font-size: 40px; 
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  
+  .username {
+    color: white;
+  }
+
+.singup_tab{
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.singup_tab h5{
+    color: #3AB54A;
+    font-size: 90px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.singup_button{
+    border-radius: 60px; 
+    background-color:#3AB54A;
+    border: none;
+    width: 222px;
+    height: 110px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.singup_button a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 90px;
+}
+
+.singup_button:hover {
+    background-color:#000;   
+}
+
+.singup_button a:hover {
+    color: #3AB54A;
+}
+
+
+.crossplay_container{
+    background-color: #666666;
+    position: relative;
+     z-index: 1;
+}
+
+.crossplay_image img {
+    width: 550px; 
+    height: auto;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+.text_crossplay p{
+    color: #3AB54A;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    opacity: 85%;
+    margin-left: 60px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*--------------------- calendar section------------------------ */
+
+.calendar_section{
+    background-color:#666666 ;
+    margin-top: 90px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.calendar_img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*--------------------- whats next text box------------------------ */
+
+.next_box{
+    background-color: #fff;
+    
+}
+
+.text_signed_up{
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-weight: bold;
+    float: left;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.text_whats_next{
+    font-size: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-weight: bold;
+    float: left;
+    padding-top: 30px;
+}
+
+.box_text_invite{
+    color: #3AB54A;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-size: 30px;
+    clear: both;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right: 30px;
+    opacity: 85%;
+}
+
+.text_have_fun{
+    font-size: 40px;
+    float: right;
+    padding-bottom: 30px; 
+    padding-top: 20px;
+    opacity: 85%;
+}
+
+/* ------------------photo gallery section------------------- */
+
+.gallery_container{
+    background-color: #666666;   
+}
+
+.text_align_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.text_photo{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    opacity: 85%;
+    font-size: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Tsukimi Rounded', sans-serif;
+
+}
+
+.text_gallery{
+    color: #3AB54A;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    opacity: 85%;
+    font-size: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Tsukimi Rounded', sans-serif; 
+}
+
+.photo_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 10px; 
+}
+
+.photo_container > div {
+    text-align: center;
+}
+
+.photo_container > div > div {
+    margin-bottom: 10px; 
+}
+
+.photo_container img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.text_wallpapers, .text_fan_art, .text_gameplay {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    opacity: 80%;
+    padding-bottom: 30px;
+}
+
